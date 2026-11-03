@@ -1,0 +1,25 @@
+:root {
+    --mbg : #FFFFFF ;
+    --msbg : #F0F7FA ;
+    --btn : #16A6A3 ;
+    --hea : #526477 ;
+    --crd : #FFFFFF ;
+    --brd : #E2EAF0 ;
+    --ftr : #102A43 ;
+}
+body{
+    color: var(--mbg);
+}
+.navbar-links{
+    padding: 20px;
+    display: flex;
+    background-color: var(--mbg);
+    :hover{
+        font-size: larger;
+    }
+    gap: 23px;
+    margin-right: auto;
+}
+.logo{
+    gap: 100px;
+}
